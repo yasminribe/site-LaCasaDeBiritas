@@ -1,0 +1,88 @@
+.rodape{
+    background: linear-gradient(#070707,#1e1e1d);
+    color: #fefefe;
+}
+
+.sociais{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff6a9;
+
+}
+.sociais h3{
+    padding: 20px;
+}
+.sociais h3 span{
+    font-weight: 200;
+    font-size: 10px;
+    color: #e0d429;
+}
+.icones{
+margin-right: 30px;
+}
+.icones h4{
+margin-bottom: 15px;
+font-weight: 300;
+
+}
+.icones a {
+    color: #fff;
+    padding: 5px;
+}
+.icones a:hover {
+    color: #8b0505;
+}
+
+.rodape-menu{
+   padding: 25px;
+   display: flex;
+   justify-content:space-between;
+}
+.rodape-menu img{
+    width: 12%;
+}
+
+.bebidas a, .saiba a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #fefefe;
+    opacity: .5;
+}
+.bebidas a:hover, .saiba a:hover{
+    opacity: 1;
+}
+.bebidas h3, .saiba h3{
+    color: #8b0505;
+    font-size: 1.3rem;
+}
+.bebidas ul li, .saiba ul li{
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.rodape p{
+    font-size: .9rem;
+    padding: 20px;
+   text-align: center;
+}
+@media  (min-width: 200px) and (max-width: 700px){
+
+    .sociais h3{
+        display: none;
+    }
+    .rodape-menu img{
+       display: none;
+    }
+    
+    .icones a{
+        margin-left: 35px; 
+        font-size: 1.5rem;
+    }
+    
+    .icones h4{
+        margin-left: 35px;
+       font-size: 20px;
+    }
+}
