@@ -78,25 +78,39 @@ main{
     align-items: center;
     justify-content: space-between;
     margin: 50px 0;
+    overflow: hidden;
+    text-shadow: 1px 1px 10px #000;
+    
+   
+    
 }
 .parte1 h1{
     color: #f8f6f1;
     font-size: 2.3rem;
     text-align: center;
+    
 }
 .missao1{
-    background: linear-gradient(#0000008e ,#00000034), url(/img-sobre/clientes2.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/clientes2.jpg);
     background-size: cover;
     height: 50vh;
-    width: 70vh;
-    text-align:center;
     color: #fefefe;
-    font-size: 1rem;
+    font-size: 1rem; 
     
+}
+.missao1 h2{
+    margin-top: 50%;
+}
+.missao1 p{
+    text-align: justify;
+    margin-top: 35px;
+    padding: 0 10px;
+    
+
 }
 
 .missao2{
-    background: linear-gradient(#00000013 ,#00000034), url(/img-sobre/barman.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/barman.jpg);
     background-size: cover;
     height: 50vh;
     width: 70vh;
@@ -104,9 +118,17 @@ main{
     color: #fefefe;
     font-size: 1rem;
 }
+.missao2 h2{
+    margin-top: 50%;
+}
+.missao2 p{
+    text-align: justify;
+    margin-top: 32px;
+    padding: 0 10px;
+}
 
 .missao3{
-    background: linear-gradient(#00000013 ,#00000034), url(/img-sobre/bartender.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/bartender.jpg);
     background-size: cover;
     padding: 1rem;
     height: 40vh;
@@ -115,9 +137,16 @@ main{
     color: #fefefe;
     font-size: 1rem;
 }
+.missao3 h2{
+    margin-top: 50% ;
+}
+.missao3 p{
+    text-align: justify;
+    padding: 3px 10px;
+}
 
 .missao4{
-    background: linear-gradient(#00000066 ,#000000a0), url(/img-sobre/diversidades.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/diversidades.jpg);
     background-size: cover;
     margin: 10px 30px;
     height: 40vh;
@@ -126,9 +155,15 @@ main{
     color: #fefefe;
     font-size: 1rem;
 }
-
+.missao4 h2{
+    margin-top: 52% ;
+}
+.missao4 p{
+    text-align: justify;
+    padding: 5px 10px;
+}
 .missao5{
-    background: linear-gradient(#00000066 ,#000000a0), url(/img-sobre/trabalho.png);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/trabalho.png);
     background-size: cover;
     height: 40vh;
     width: 60vh;
@@ -136,17 +171,13 @@ main{
     color: #fefefe;
     font-size: 1rem;
 }
-
-.frase p{
-    color: darkgoldenrod;
-    font-size: 2rem;
-    text-align: center;
+.missao5 h2{
+    margin-top: 60% ;
+}
+.missao5 p{
+    text-align: justify;
+    padding: 5px 10px;
 }
 
-.copy{
-    color:darkgoldenrod ;
-    text-align: center;
-    margin-top: 10PX;
-}
 
 
