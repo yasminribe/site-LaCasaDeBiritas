@@ -9,7 +9,7 @@ main{
 
 
 .banner{
-    background: linear-gradient(#000000b6 ,#000000cc), url(/img-sobre/banner.jpg);
+    background: linear-gradient(#000000b6 ,#000000cc), url(../img-sobre/banner.jpg);
     background-position: center;    
     background-size: cover;
     height: 70vh;
