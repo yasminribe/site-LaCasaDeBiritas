@@ -1,0 +1,152 @@
+body{
+    background-color: #000; 
+}
+main{
+   
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+.banner{
+    background: linear-gradient(#000000b6 ,#000000cc), url(/img-sobre/banner.jpg);
+    background-position: center;    
+    background-size: cover;
+    height: 70vh;
+    color:  #fefefe;
+    
+}
+
+.banner h1{
+    color: #fefefe;
+    text-shadow: 7px 5px 10px #000;
+    font-size: 3rem;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    text-align: center;
+}
+.sobre{
+    color: #fefefe;
+}
+.sobre h1{
+    font-size: 3.2rem;
+    color: #8b0505;
+    padding: 50px;
+}
+.sobre span{
+    color: #f8f6f1;
+}
+.texto1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 45px;
+}
+.texto1 p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 20px;
+    }
+.texto1 img{
+    width: 30%;
+    margin-left: 10%;
+}
+/* texto nossos valores */
+.texto2{
+   background-color: #0a0a0abb; 
+   margin: 100px 0;
+}
+.texto2 h1{
+    color:#8b0505;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 15px;
+}
+
+.texto2 p{
+    color: #fefefe;
+    font-size: 1.1rem;
+    padding: 30px 20%;
+    text-align: justify;
+    line-height: 25px;
+}
+/* imagnes parte 1 */
+.missao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.parte1 h1{
+    color: #f8f6f1;
+    font-size: 2.3rem;
+    text-align: center;
+}
+.missao1{
+    background: linear-gradient(#0000008e ,#00000034), url(/img-sobre/clientes2.jpg);
+    background-size: cover;
+    height: 50vh;
+    width: 70vh;
+    text-align:center;
+    color: #fefefe;
+    font-size: 1rem;
+    
+}
+
+.missao2{
+    background: linear-gradient(#00000013 ,#00000034), url(/img-sobre/barman.jpg);
+    background-size: cover;
+    height: 50vh;
+    width: 70vh;
+    text-align:center;
+    color: #fefefe;
+    font-size: 1rem;
+}
+
+.missao3{
+    background: linear-gradient(#00000013 ,#00000034), url(/img-sobre/bartender.jpg);
+    background-size: cover;
+    padding: 1rem;
+    height: 40vh;
+    width: 60vh;
+    text-align:center;
+    color: #fefefe;
+    font-size: 1rem;
+}
+
+.missao4{
+    background: linear-gradient(#00000066 ,#000000a0), url(/img-sobre/diversidades.jpg);
+    background-size: cover;
+    margin: 10px 30px;
+    height: 40vh;
+    width: 60vh;
+    text-align:center;
+    color: #fefefe;
+    font-size: 1rem;
+}
+
+.missao5{
+    background: linear-gradient(#00000066 ,#000000a0), url(/img-sobre/trabalho.png);
+    background-size: cover;
+    height: 40vh;
+    width: 60vh;
+    text-align:center;
+    color: #fefefe;
+    font-size: 1rem;
+}
+
+.frase p{
+    color: darkgoldenrod;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.copy{
+    color:darkgoldenrod ;
+    text-align: center;
+    margin-top: 10PX;
+}
+
+
