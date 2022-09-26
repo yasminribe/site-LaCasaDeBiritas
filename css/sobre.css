@@ -91,7 +91,7 @@ main{
     
 }
 .missao1{
-    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/clientes2.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(../img-sobre/clientes2.jpg);
     background-size: cover;
     height: 50vh;
     color: #fefefe;
@@ -110,7 +110,7 @@ main{
 }
 
 .missao2{
-    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/barman.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(../img-sobre/barman.jpg);
     background-size: cover;
     height: 50vh;
     width: 70vh;
@@ -128,7 +128,7 @@ main{
 }
 
 .missao3{
-    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/bartender.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(../img-sobre/bartender.jpg);
     background-size: cover;
     padding: 1rem;
     height: 40vh;
@@ -146,7 +146,7 @@ main{
 }
 
 .missao4{
-    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/diversidades.jpg);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(../img-sobre/diversidades.jpg);
     background-size: cover;
     margin: 10px 30px;
     height: 40vh;
@@ -163,7 +163,7 @@ main{
     padding: 5px 10px;
 }
 .missao5{
-    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(/img-sobre/trabalho.png);
+    background: linear-gradient(360deg,#000000d7 20% ,#00000046 10%), url(../img-sobre/trabalho.png);
     background-size: cover;
     height: 40vh;
     width: 60vh;
